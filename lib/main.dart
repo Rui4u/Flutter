@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:teaching/alert_demo.dart';
 import 'package:teaching/demo.dart';
 import 'package:teaching/document.dart';
 import 'package:teaching/gap_filling.dart';
@@ -40,9 +41,10 @@ class _MyHomePageState extends State<MyHomePage> {
     // });
     Navigator.push(
       context,
-      MaterialPageRoute(builder: (context) => SecondPage()),
+      // MaterialPageRoute(builder: (context) => SecondPage()),
     // MaterialPageRoute(builder: (context) => ArticlePage()),
     //     MaterialPageRoute(builder: (context) => FillInTheBlankPage()),
+        MaterialPageRoute(builder: (context) => AlertDemo()),
 
     );
 
